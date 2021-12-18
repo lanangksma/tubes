@@ -1,0 +1,37 @@
+@media (max-width:1200px){
+    html{
+        font-size: 55%;
+    }
+    .home{
+        padding: 1rem 4rem;
+    }
+}
+
+@media (max-width:990px){
+    header{
+        left: -120%;
+    }
+    #menu{
+        display: block;
+    }
+    header.toggle{
+        left: 0%;
+    }
+    body{
+        padding: 0;
+    }
+}
+
+@media (max-width:769px){
+    html{
+        font-size: 50%;
+    }
+}
+@media (max-width:450px){
+    header{
+        width: 100vw;
+    }
+    header .navbar ul li a{
+        margin: 2rem 3rem;
+    }
+}
