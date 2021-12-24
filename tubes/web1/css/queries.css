@@ -1,0 +1,59 @@
+@media (max-width:1200px){
+    html{
+        font-size: 55%;
+    }
+    .home{
+        padding: 1rem 4rem;
+    }
+    .skills .row .counter .box{
+        width: 100%;
+    }
+}
+
+@media (max-width:990px){
+    header{
+        left: -120%;
+    }
+    #menu{
+        display: block;
+    }
+    header.toggle{
+        left: 0%;
+    }
+    body{
+        padding: 0;
+    }
+    .skills .row .counter .box{
+        width: 100%;
+    }
+}
+
+@media (max-width:769px){
+    html{
+        font-size: 50%;
+    }
+    .skills .row .counter .box{
+        width: 100%;
+    }
+}
+@media (max-width:450px){
+    header{
+        width: 100vw;
+    }
+    header .navbar ul li a{
+        margin: 2rem 3rem;
+    }
+    .skills .row .counter .box{
+        padding: 1.5rem;
+        margin: 1.5rem;
+    }
+    .skills .row .counter .box{
+        width: 100%;
+    }
+    .project .box-container .box{
+        width: 100%;
+    }
+    .contact .row form{
+        margin:3rem 0;
+    }
+}
