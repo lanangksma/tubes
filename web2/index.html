@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>First Bootstrap Web</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========= -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="duckduckgo.com">
+        RandomWeb
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto text-primary">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+              Laptop
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Acer</a></li>
+              <li><a class="dropdown-item" href="#">Asus</a></li>
+              <li><a class="dropdown-item" href="#">Microsoft</a></li>
+              <li><a class="dropdown-item" href="#">Apple</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+              Linux
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="https://archlinux.org/">ArchBTW</a></li>
+              <li><a class="dropdown-item" href="https://www.debian.org/">Debian</a></li>
+              <li><a class="dropdown-item" href="https://www.redhat.com/">RedHat</a></li>
+              <li><a class="dropdown-item" href="https://www.openbsd.org/">OpenBSD</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="petanikode.com">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sign">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- ========== CAROUSEL ========== -->
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/bg-1.jpg" class="d-block w-100"  alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/bg-2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/bg-3.jpg" class="d-block w-100" alt="...">
+    </div>
+ 
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<!-- ========== MAIN SECT / ROW ========== -->
+
+<div class="container pt-4">
+  <div class="row">
+    <div class="col-lg">
+      <h3 class="mb-4">Hello!</h3>
+      <img src="https://gifimage.net/wp-content/uploads/2017/08/loading-bar-gif-1.gif" alt="an image" class="img-fluid mb-4 rounded"/>
+     <p>Welcome to Random Web Who I makeIt, Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, quis.</p>
+     
+    </div> 
+     <div class="col-lg">
+       <h3 class="mb-4">RandomWeb</h3>
+       <p>RandomWeb is about Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam qui odit aliquid vero dicta commodi illum repellendus quos, a dolorum provident facilis doloribus beatae perferendis voluptatum vitae modi architecto eligendi quibusdam error labore necessitatibus, sunt ab corporis? </p>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptatem mollitia vel dicta delectus dolore repellat non nobis nihil? Pariatur.</p>
+       
+    </div> 
+     <div class="col-lg">
+       <h3 class="mb-4">Upcoming Videos</h3>
+         <div class="list-group">
+ <a href="#" class="list-group-item list-group-item-action"><strong class="text-primary">Anime</strong>: Top 5 Anime Zero To Hero</a>
+ <a href="#" class="list-group-item list-group-item-action"><strong class="text-success">Linux</strong>: How To Make Your XFCE Desktop Looks Like BigSur</a>
+ <a href="#" class="list-group-item list-group-item-action"><strong class="text-success">Linux</strong>: How To Install ArchLinux With ArchInstall Script</a>
+ <a href="#" class="list-group-item list-group-item-action"><strong class="text-success">Linux</strong>: How To Install ohmyzsh In Your Terminal</a>
+ <a href="#" class="list-group-item list-group-item-action"><strong class="text-primary">Anime</strong>: Top 5 Anime Sekai Saikyou</a>
+</div>
+    </div> 
+    </div>
+
+    <!-- ========== VIDEOS ========== -->
+ 
+ <h1 class="display-3 text-center text-muted my-4">Videos</h1>
+ <div class="row">
+   <div class="col-md-6 col-lg-4">
+       <div class="card mb-3">
+     <img src="https://gifimage.net/wp-content/uploads/2017/08/loading-bar-gif-1.gif" class="card-img-top" alt="...">
+     <div class="card-body">
+      <h4 class="card-title">Lorem ipsum dolor sit amet. </h4>
+   <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ratione cupiditate deleniti itaque!</p>
+    
+     </div>
+   </div>
+   </div>
+ 
+   <div class="col-md-6 col-lg-4">
+           <div class="card mb-3">
+     <img src="https://gifimage.net/wp-content/uploads/2017/08/loading-bar-gif-1.gif" class="card-img-top" alt="...">
+     <div class="card-body">
+ <h4 class="card-title">Lorem ipsum dolor sit amet consectetur.</h4>
+ <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita eum ipsam fugit nulla nihil.</p>
+    
+     </div>
+   </div>
+   </div>
+ 
+   <div class="col-md-6 col-lg-4">
+           <div class="card mb-3">
+     <img src="https://gifimage.net/wp-content/uploads/2017/08/loading-bar-gif-1.gif" class="card-img-top" alt="...">
+     <div class="card-body">
+    <h4 class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, quam.</h4>
+ <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, tenetur ipsa. Lorem, ipsum.</p>
+    
+     </div>
+   </div>
+   </div>
+ 
+   <div class="col-md-6 col-lg-4">
+           <div class="card mb-3">
+     <img src="https://gifimage.net/wp-content/uploads/2017/08/loading-bar-gif-1.gif" class="card-img-top" alt="...">
+     <div class="card-body">
+   <h4 class="card-title">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h4>
+ <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dolorem excepturi earum dicta nihil rerum. Lorem ipsum dolor sit amet.</p>
+     </div>
+   </div>
+   </div>
+ 
+   <div class="col-md-6 col-lg-4">
+           <div class="card mb-3">
+     <img src="https://gifimage.net/wp-content/uploads/2017/08/loading-bar-gif-1.gif" class="card-img-top" alt="...">
+     <div class="card-body">
+     <h4 class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt.</h4>
+ <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi aliquid eaque optio, iusto tenetur eius non? Asperiores.</p>
+    
+     </div>
+   </div>
+   </div>
+ 
+   <div class="col-md-6 col-lg-4">
+           <div class="card mb-3">
+     <img src="https://gifimage.net/wp-content/uploads/2017/08/loading-bar-gif-1.gif" class="card-img-top" alt="...">
+     <div class="card-body">
+      <h4 class="card-title">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4>
+ <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur adipisci eligendi est aliquid nemo! Doloremque ipsum qui iure.</p>
+    
+     </div>
+   </div>
+   </div>
+ </div>
+    
+<!-- ========== SIGNUP FORM ========== -->
+<hr>
+<div id="sign" class="row py-4 text-muted">
+  <div class="col-md">
+    <p><strong>Weekly Newsletter</strong></p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum in fugiat ab modi omnis quas excepturi neque. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, tempore architecto. </p>
+  </div>
+  <div class="col-md col-lg-5 ml-auto">
+    <p><strong>Stay up-to-date on RandomWeb</strong></p>
+    <div class="input-group">
+      <input type="text" id="form" class="form-control" placeholder="Email">
+      <span class="input-group-btn">
+        <button class="btn btn-primary" type="button">Sign up</button>
+      </span>
+    </div>
+  </div>
+</div>
+<hr>
+
+<!-- ========== FOOTER ========== -->
+
+<div class="row py-3">
+  <div class="col-md-7">
+  <ul class="nav">
+  <li class="nav-item">
+    <a class="nav-link" href="#form">Other Random? </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#blog">Blog</a>
+  </li>
+  <li class="nav-item">
+
+<div class="btn-group dropup">
+  <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Social Media
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="https://www.youtube.com/channel/UCAoy6rzhSf4ydcYjJw3WoVg">Youtube</a>
+    <a class="dropdown-item" href="bilibili.com">Bilibili</a>
+    <a class="dropdown-item" id="blog" href="https://www.reddit.com/r/unixporn/wiki/index">Reddit</a>
+    <a class="dropdown-item" href="gitlab.com">Gitlab</a>
+  </div>
+</div>
+  </li>
+ 
+</ul>
+  </div>
+  <div class="col-md text-md-right">
+    <small>&copy; 2021  <a href="http://archlinux.org/">M Lanang Abid K - 213040046 - Bootstrap</a></small>
+  </div>
+</div>      
+</div>
+<!-- ========== JavaScript and dependencies ========== -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+</body>
+</html>
